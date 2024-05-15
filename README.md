@@ -17,7 +17,8 @@ Role Variables
 On Mac OSX and Windows, use e.g. `gitlab_runner_wanted_version: 12.4.1`.
 On Linux, use `gitlab_runner_package_version` instead.
 - `gitlab_runner_concurrent` - The maximum number of global jobs to run concurrently. Defaults to the number of processor cores.
-- `gitlab_runner_registration_token` - The GitLab registration token. If this is specified, a runner will be registered to a GitLab server.
+- `gitlab_runner_registration_token` - The GitLab registration token (deprecated). If this is specified, a runner will be registered to a GitLab server.
+- `gitlab_runner_authentication_token` - The GitLab authentication token. If this is specified, a runner will be registered to a GitLab server.
 - `gitlab_runner_coordinator_url` - The GitLab coordinator URL. Defaults to `https://gitlab.com`.
 - `gitlab_runner_sentry_dsn` - Enable tracking of all system level errors to Sentry
 - `gitlab_runner_listen_address` - Enable `/metrics` endpoint for Prometheus scraping.

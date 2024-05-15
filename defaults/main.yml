@@ -27,6 +27,8 @@ gitlab_runner_check_interval: 0
 gitlab_runner_coordinator_url: https://gitlab.com
 # GitLab registration token
 gitlab_runner_registration_token: ""
+# GitLab authentication token
+gitlab_runner_authentication_token: ""
 
 gitlab_runner_sentry_dsn: ""
 

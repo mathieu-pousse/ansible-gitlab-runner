@@ -47,3 +47,4 @@ gitlab_runner_listen_address: "0.0.0.0:9001"
 run_mock_server: false
 gitlab_runner_coordinator_url: http://localhost:7070/
 gitlab_runner_registration_token: ""
+gitlab_runner_authentication_token: ""
